@@ -17,7 +17,3 @@ class Person
   end
 
 end
-
-larry = Person.new
-larry.name = "Larry"
-larry.job = "Plumber"
