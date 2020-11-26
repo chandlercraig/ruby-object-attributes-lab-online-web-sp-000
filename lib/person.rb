@@ -12,8 +12,12 @@ class Person
     @this_persons_job = person_job
   end
 
-  def breed
+  def job
     @this_persons_job
   end
 
 end
+
+larry = Person.new
+larry.name = "Larry"
+larry.job = "Plumber"
